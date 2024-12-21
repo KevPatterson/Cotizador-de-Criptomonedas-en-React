@@ -40,12 +40,9 @@ Sigue estos pasos para instalar y ejecutar el proyecto localmente:
 
 1. **Inicia el servidor de desarrollo:**
    ```bash
-   npm start
+   npm run dev
    ```
-   o
-   ```bash
-   yarn start
-   ```
+   
 2. **Abre tu navegador y navega a** `http://localhost:3000` **para visualizar la aplicación.**
 
 ---
