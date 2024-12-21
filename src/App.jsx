@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import styled from '@emotion/styled';
 import ImagenCripto from './img/pngwing.com (1).png'; // Imagen principal
-import ImagenAdicional1 from './img/adicional1.png'; // Nueva imagen 1
 import Formulario from './components/Formulario';
 import Resultado from './components/Resultado';
 import Spinner from './components/Spinner';
@@ -99,7 +98,6 @@ function App() {
 
         {/* Imágenes adicionales */}
         <SubContenedorImagenes>
-          <ImagenAdicional src={ImagenAdicional1} alt="Imagen adicional 1" />
         </SubContenedorImagenes>
       </ContenedorImagenes>
 
